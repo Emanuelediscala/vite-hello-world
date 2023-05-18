@@ -1,8 +1,10 @@
 <script>
 import AppTitle from './components/AppTitle.vue'
+import AppHero from './components/AppHero.vue'
 export default {
   components: {
-    AppTitle
+    AppTitle,
+    AppHero
   }
 }
 </script>
@@ -15,6 +17,7 @@ export default {
     <AppTitle />
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
+      <AppHero/>
     </a>
   </div>
   <!-- <HelloWorld msg="Vite + Vue" /> -->
